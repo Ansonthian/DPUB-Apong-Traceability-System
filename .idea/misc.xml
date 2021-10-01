@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/Tracesystem/app/src/main/res/drawable-v24/circlebackgroundpink.xml" value="0.15989583333333332" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/Tracesystem/app/src/main/res/drawable-v24/ic_add_black_add.xml" value="0.2911458333333333" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/Tracesystem/app/src/main/res/drawable/circlebackgroundpurple.xml" value="0.2911458333333333" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/Tracesystem/app/src/main/res/drawable/ic_person_login.xml" value="0.2875" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/Tracesystem/app/src/main/res/drawable/ic_person_register.xml" value="0.2875" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/Tracesystem/app/src/main/res/layout-land/activity_sapharvester_menu.xml" value="0.27837837837837837" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/Tracesystem/app/src/main/res/layout-sw1080dp/activity_dashboard_menu.xml" value="0.275" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/Tracesystem/app/src/main/res/layout-sw1080dp/activity_sapharvester_menu.xml" value="0.275" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/Tracesystem/app/src/main/res/layout-sw1440dp/activity_dashboard_menu.xml" value="0.275" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/Tracesystem/app/src/main/res/layout-sw1440dp/activity_sapharvester_menu.xml" value="0.275" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/Tracesystem/app/src/main/res/layout-sw640dp/activity_dashboard_menu.xml" value="0.20625" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/Tracesystem/app/src/main/res/layout-sw720dp/activity_sapharvester_menu.xml" value="0.20625" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/Tracesystem/app/src/main/res/layout/activity_addrecord.xml" value="0.264" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/Tracesystem/app/src/main/res/layout/activity_admin_dashboard.xml" value="0.275" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/Tracesystem/app/src/main/res/layout/activity_admin_login.xml" value="0.275" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/Tracesystem/app/src/main/res/layout/activity_admin_register.xml" value="0.275" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/Tracesystem/app/src/main/res/layout/activity_admin_viewrecord.xml" value="0.275" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/Tracesystem/app/src/main/res/layout/activity_dashboard_menu.xml" value="0.264" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/Tracesystem/app/src/main/res/layout/activity_deleterecord.xml" value="0.264" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/Tracesystem/app/src/main/res/layout/activity_login.xml" value="0.2609375" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/Tracesystem/app/src/main/res/layout/activity_main.xml" value="0.275" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/Tracesystem/app/src/main/res/layout/activity_main2.xml" value="0.1609375" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/Tracesystem/app/src/main/res/layout/activity_menu.xml" value="0.16041666666666668" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/Tracesystem/app/src/main/res/layout/activity_menu1.xml" value="0.16041666666666668" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/Tracesystem/app/src/main/res/layout/activity_register.xml" value="0.275" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/Tracesystem/app/src/main/res/layout/activity_sapcollector_login.xml" value="0.275" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/Tracesystem/app/src/main/res/layout/activity_sapcollector_register.xml" value="0.275" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/Tracesystem/app/src/main/res/layout/activity_sapharvester_login.xml" value="0.275" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/Tracesystem/app/src/main/res/layout/activity_sapharvester_menu.xml" value="0.264" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/Tracesystem/app/src/main/res/layout/activity_sapharvester_register.xml" value="0.275" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/Tracesystem/app/src/main/res/layout/activity_sapharvester_viewrecord.xml" value="0.275" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/Tracesystem/app/src/main/res/layout/activity_scanbarcode.xml" value="0.275" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/Tracesystem/app/src/main/res/layout/activity_scancode.xml" value="0.2609375" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/Tracesystem/app/src/main/res/layout/activity_viewerecord.xml" value="0.264" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/Tracesystem/app/src/main/res/layout/list_layout.xml" value="0.264" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/Tracesystem/app/src/main/res/layout/recordlist.xml" value="0.275" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/Tracesystem/app/src/main/res/menu/menu.xml" value="0.16041666666666668" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/Tracesystem/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1390625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

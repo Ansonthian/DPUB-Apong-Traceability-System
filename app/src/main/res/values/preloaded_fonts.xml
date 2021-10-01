@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aclonica</item>
+        <item>@font/akronim</item>
+        <item>@font/allura</item>
+        <item>@font/playball</item>
+        <item>@font/playfair_display_black_italic</item>
+        <item>@font/playfair_display_bold_italic</item>
+    </array>
+</resources>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:contentPadding="5dp"
+    app:cardUseCompatPadding="true"
+    android:background="@drawable/background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#3F51B5"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/Details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Details"
+            android:textSize="25dp"
+            android:textColor="#ffff"
+            android:fontFamily="@font/akronim"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/viewdatetime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Datetime"
+            android:textColor="#ffff"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/viewdatetimecontent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="10dp"
+            android:layout_toEndOf="@+id/viewdatetime"
+            android:ems="10"
+            android:text="TextView"
+            android:textColor="#ffff" />
+
+
+        <TextView
+            android:id="@+id/viewmass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Mass"
+            android:textColor="#ffff"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/viewmasscontent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="49dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="10dp"
+            android:layout_toEndOf="@+id/viewmass"
+            android:ems="8"
+            android:text="TextView"
+            android:textColor="#ffff" />
+
+        <TextView
+            android:id="@+id/viewpH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:text="pH Value"
+            android:textColor="#ffff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/viewpHcontent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="26dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="10dp"
+            android:layout_toEndOf="@+id/viewpH"
+            android:text="TextView"
+            android:textColor="#ffff" />
+
+        <TextView
+            android:id="@+id/viewremarks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            android:text="Remarks"
+            android:textColor="#ffff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/viewremarkscontent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="26dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="90dp"
+            android:layout_marginEnd="10dp"
+            android:layout_toEndOf="@+id/viewremarks"
+            android:ems="8"
+            android:text="TextView"
+            android:textColor="#ffff" />
+
+        <TextView
+            android:id="@+id/viewsapcollector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            android:text="Who"
+            android:textColor="#ffff"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/viewsapCollectorcontent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="55dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginEnd="15dp"
+            android:layout_toEndOf="@+id/viewsapcollector"
+            android:ems="8"
+            android:text="TextView"
+            android:textColor="#ffff" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
