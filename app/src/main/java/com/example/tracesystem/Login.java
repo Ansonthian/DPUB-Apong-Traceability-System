@@ -21,6 +21,7 @@ import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class Login extends AppCompatActivity {
     EditText mEmail,mPassword;
@@ -28,7 +29,6 @@ public class Login extends AppCompatActivity {
     TextView mCreateBtn,forgotTextLink;
     ProgressBar progressBar;
     FirebaseAuth fAuth;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,11 +68,14 @@ public class Login extends AppCompatActivity {
 
                 progressBar.setVisibility(View.VISIBLE);
 
+
+
                 // authenticate the user
 
                 fAuth.signInWithEmailAndPassword(email,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
+
                         if(task.isSuccessful()){
                             Toast.makeText(Login.this, "Logged in Successfully", Toast.LENGTH_SHORT).show();
                             startActivity(new Intent(getApplicationContext(),dashboard_menu.class));
@@ -81,7 +84,9 @@ public class Login extends AppCompatActivity {
                             progressBar.setVisibility(View.GONE);
                         }
 
+
                     }
+
                 });
 
             }
@@ -132,6 +137,10 @@ public class Login extends AppCompatActivity {
                 });
 
                 passwordResetDialog.create().show();
+
+
+                FirebaseAuth firebaseAuth = FirebaseAuth.getInstance();
+
 
             }
         });
